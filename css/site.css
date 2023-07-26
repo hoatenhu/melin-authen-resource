@@ -1,0 +1,426 @@
+﻿.col-center {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+}
+
+body {
+    overflow: hidden;
+    min-height: 100%;
+    height: 100vh;
+    font-family: "GothamRounded-Book", Helvetica, Arial, sans-serif !important;
+}
+
+.form-control:not([readonly]):focus {
+    border-color: #ef233c;
+    outline: 0;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+input:focus, button:focus, .mx-link:focus {
+    outline: 0;
+}
+
+.btn, .mx-button {
+    display: inline-block;
+    margin-bottom: 0;
+    padding: .6em 1em;
+    cursor: pointer;
+    user-select: none;
+    transition: all .2s ease-in-out;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #ef233c;
+    border: 1px solid #e7e7e9;
+    border-radius: 4px;
+    background-color: #fff;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 14px;
+    line-height: 1.428571429;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.login-title-overlay {
+    position: absolute;
+    align-items: center;
+    height: 100vh;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    white-space: pre-line;
+}
+
+@media (max-width: 767px) {
+    .hide-phone {
+        display: none !important;
+    }
+}
+
+.scrollcontainer-horizontal {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
+
+.scrollcontainer .placeholder {
+    width: 100%;
+    height: 100%;
+}
+
+.scrollcontainer-horizontal > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.login-layout {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login-logo {
+    border-radius: 50%;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.LoginMainContainer {
+    background: linear-gradient(rgba(56,55,65,.9),rgba(56,57,65,.9)),url(../images/banner-content-normal.jpeg);
+    background-size: cover;
+    background-position: 65%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+@media (min-width: 1440px) {
+    .LoginInputMainContainer {
+        padding-left: 700px;
+        padding-right: 700px;
+    }
+}
+
+@media (max-width: 1439px) {
+    .LoginInputMainContainer {
+        padding-left: 350px;
+        padding-right: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .LoginInputMainContainer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+.spacing-inner-none {
+    padding: 0 !important;
+}
+
+.LoginInput {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 3px;
+    padding: 10px;
+    font-weight: 800
+}
+
+.PasswordInput {
+    margin: auto;
+    margin-bottom: 3px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 800
+}
+
+.form-control {
+    display: flex;
+    flex: 1;
+    min-width: 50px;
+    height: auto;
+    min-height: 50px;
+    padding: 10px 1opx;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    color: #0a1325;
+    border: 1px solid #e7e7e9;
+    border-radius: 4px;
+    background-color: #fff;
+    background-image: none;
+    box-shadow: none;
+    font-size: 12px;
+    line-height: 1.428571429;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.btn-primary, .datagrid-fullsearch.mx-grid .mx-grid-search-button {
+    color: #fff;
+    border-color: #ef233c;
+    background-color: #ef233c;
+}
+
+.btn:active, .btn.active, .open > .btn.dropdown-toggle, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+    background-image: none;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .open > .btn.dropdown-toggle, .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+    color: #ef233c;
+    border-color: #e7e7e9;
+    background-color: #e7e7e9;
+}
+
+    .btn:hover, .btn:focus, .btn:active, .btn:active:focus, .mx-button:hover, .mx-button:focus, .mx-button:active, .mx-button:active:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+.btn-primary:hover, .datagrid-fullsearch.mx-grid .mx-grid-search-button:hover, .btn-primary:focus, .datagrid-fullsearch.mx-grid .mx-grid-search-button:focus, .btn-primary:active, .datagrid-fullsearch.mx-grid .mx-grid-search-button:active, .btn-primary.active, .datagrid-fullsearch.mx-grid .active.mx-grid-search-button, .open > .btn-primary.dropdown-toggle, .datagrid-fullsearch.mx-grid .open > .dropdown-toggle.mx-grid-search-button {
+    color: #fff;
+    border-color: #bf1c30;
+    background-color: #bf1c30;
+}
+
+.btn-primary:active, .datagrid-fullsearch.mx-grid .mx-grid-search-button:active, .btn-primary.active, .datagrid-fullsearch.mx-grid .active.mx-grid-search-button, .open > .btn-primary.dropdown-toggle, .datagrid-fullsearch.mx-grid .open > .dropdown-toggle.mx-grid-search-button {
+    background-image: none;
+}
+
+.TunePrimaryButton {
+    background-color: #ec5a54 !important;
+    border-color: #ec5a54 !important;
+    border-radius: .3rem;
+    font-size: 14px;
+    font-weight: 600;
+    height: auto;
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.SignUpText {
+    color: #ec5a54;
+    border: none;
+    margin: auto;
+    display: flex;
+    display: block;
+    letter-spacing: .5px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+    .SignUpText:hover {
+        background: unset !important;
+        color: unset !important;
+    }
+
+.ForgotPasswordText {
+    color: #ec5a54;
+    border: none;
+    margin: auto;
+    display: table;
+    letter-spacing: .5px;
+    font-size: 0.75rem;
+    float: right;
+}
+
+    .ForgotPasswordText:hover {
+        background: unset !important;
+        color: unset !important;
+    }
+
+.LoginBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.LoginBtn {
+    background-color: red;
+    border-color: unset;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.SignUpPage-Btn {
+    display: flex;
+    margin: auto;
+    border: none;
+    color: #000;
+    font-weight: 800;
+}
+
+@media (min-width: 992px) {
+    .spacing-inner-large {
+        padding: 30px !important;
+    }
+
+    .spacing-outer-bottom-large {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .spacing-inner-large {
+        padding: 30px !important;
+    }
+
+    .spacing-outer-bottom-large {
+        margin-bottom: 30px !important;
+    }
+}
+
+.pageheader {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+img.img-cover, .img-cover img {
+    object-fit: cover;
+}
+
+.scrollcontainer .placeholder .layoutgrid .layoutgrid, .scrollcontainer .placeholder .layoutgrid .layoutgrid-fluid, .scrollcontainer .placeholder .layoutgrid-fluid .layoutgrid, .scrollcontainer .placeholder .layoutgrid-fluid .layoutgrid-fluid {
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+    .scrollcontainer .placeholder .layoutgrid, .scrollcontainer .placeholder .layoutgrid-fluid {
+        padding: 24px 24px 24px 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .scrollcontainer .placeholder .layoutgrid, .scrollcontainer .placeholder .layoutgrid-fluid {
+        padding: 24px 24px 24px 24px;
+    }
+}
+
+.layoutgrid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.ForgotPassword_Icon {
+    display: flex;
+    justify-content: center;
+}
+
+.ForgotPassword_Title {
+    font-size: 24px;
+    font-weight: 900;
+    color: #000;
+    line-height: 40px;
+}
+
+.ForgotPassword_Description {
+    display: flex;
+    justify-content: center;
+}
+
+.ForgotPassword_SubDescription {
+    font-size: 14px;
+}
+
+.ForgotPassword_InputBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ForgotPassword_EmailInput {
+    width: 350px;
+    margin-top: 30px;
+}
+
+    .ForgotPassword_EmailInput > input {
+        font-weight: 800;
+    }
+
+.ForgotPassword_ResetBtn {
+    width: 100%;
+    background: red !important;
+    border-radius: 5px;
+    color: #fff !important;
+    padding: 14px;
+    font-weight: 800;
+}
+
+.ForgotPassword_BckToLoginBtnContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ForgotPassword_BckToLoginBtn {
+    margin-top: 50px;
+    border: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+    .ForgotPassword_BckToLoginBtn > img {
+        height: 40px;
+    }
+
+    .ForgotPassword_BckToLoginBtn:hover {
+        background: unset !important;
+        color: unset !important;
+    }
+
+.mx-text.mx-name-text1 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group.no-columns:not(.label-after) {
+    flex-direction: column;
+}
+
+.form-horizontal .form-group.no-columns {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.error-inline-message {
+    display: table;
+    font-size: 14px;
+    line-height: 1.5715;
+    color: #ff4d4f;
+}
+
+    .error-inline-message .d-flex {
+        background: #ff0004;
+        border-radius: 5px;
+        color: #ededed !important;
+        font-size: 10px;
+        margin-top: 2px;
+        padding: 2px 4px;
+    }
